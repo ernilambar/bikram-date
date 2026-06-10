@@ -1,0 +1,119 @@
+# Copyright (C) 2026 Nilambar Sharma
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bikram Date 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bikram-date\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.13.0-alpha\n"
+"X-Domain: bikram-date\n"
+
+#. Plugin Name of the plugin
+#: bikram-date.php:3
+#: app/Options/Options.php:39
+#: app/Options/Options.php:40
+msgid "Bikram Date"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: bikram-date.php:4
+msgid "https://github.com/ernilambar/bikram-date/"
+msgstr ""
+
+#. Description of the plugin
+#: bikram-date.php:5
+msgid "Display post dates in Nepali."
+msgstr ""
+
+#. Author of the plugin
+#: bikram-date.php:9
+msgid "Nilambar Sharma"
+msgstr ""
+
+#. Author URI of the plugin
+#: bikram-date.php:10
+msgid "https://www.nilambar.net/"
+msgstr ""
+
+#: app/Admin/Admin.php:48
+#: app/Options/Options.php:48
+msgid "Settings"
+msgstr ""
+
+#: app/Admin/Admin.php:68
+msgid "Examples:"
+msgstr ""
+
+#: app/Admin/Admin.php:77
+msgid "Format Codes"
+msgstr ""
+
+#: app/Admin/Admin.php:81
+msgid "Symbol"
+msgstr ""
+
+#: app/Admin/Admin.php:82
+msgid "Description"
+msgstr ""
+
+#: app/Admin/Admin.php:83
+msgid "Example"
+msgstr ""
+
+#: app/Admin/Admin.php:87
+msgid "4-digit year"
+msgstr ""
+
+#: app/Admin/Admin.php:92
+msgid "2-digit year"
+msgstr ""
+
+#: app/Admin/Admin.php:97
+msgid "Day of month"
+msgstr ""
+
+#: app/Admin/Admin.php:102
+msgid "Day of month (padded)"
+msgstr ""
+
+#: app/Admin/Admin.php:107
+msgid "Month name"
+msgstr ""
+
+#: app/Admin/Admin.php:112
+msgid "Month number"
+msgstr ""
+
+#: app/Admin/Admin.php:117
+msgid "Month number (padded)"
+msgstr ""
+
+#: app/Admin/Admin.php:122
+msgid "Weekday (full)"
+msgstr ""
+
+#: app/Admin/Admin.php:127
+msgid "Weekday (short)"
+msgstr ""
+
+#: app/Options/Options.php:53
+msgid "Display Language"
+msgstr ""
+
+#: app/Options/Options.php:57
+msgid "Nepali"
+msgstr ""
+
+#: app/Options/Options.php:58
+msgid "English"
+msgstr ""
+
+#: app/Options/Options.php:64
+msgid "Date Format"
+msgstr ""

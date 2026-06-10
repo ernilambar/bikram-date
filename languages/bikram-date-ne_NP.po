@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bikram Date 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bikram-date\n"
+"Last-Translator: Nilambar Sharma <nilambar@outlook.com>\n"
+"Language-Team: Nepali <ne@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-10T16:58:27+00:00\n"
+"PO-Revision-Date: 2026-06-10T16:58:27+00:00\n"
+"Language: ne_NP\n"
+"X-Generator: WP-CLI 2.13.0-alpha\n"
+"X-Domain: bikram-date\n"
+
+#. Plugin Name of the plugin
+#: bikram-date.php:3
+#: app/Options/Options.php:39
+#: app/Options/Options.php:40
+msgid "Bikram Date"
+msgstr "विक्रम मिति"
+
+#. Plugin URI of the plugin
+#: bikram-date.php:4
+msgid "https://github.com/ernilambar/bikram-date/"
+msgstr "https://github.com/ernilambar/bikram-date/"
+
+#. Description of the plugin
+#: bikram-date.php:5
+msgid "Display post dates in Nepali."
+msgstr "नेपालीमा पोस्टको मिति देखाउँछ।"
+
+#. Author of the plugin
+#: bikram-date.php:9
+msgid "Nilambar Sharma"
+msgstr "निलाम्वर शर्मा"
+
+#. Author URI of the plugin
+#: bikram-date.php:10
+msgid "https://www.nilambar.net/"
+msgstr "https://www.nilambar.net/"
+
+#: app/Admin/Admin.php:48
+#: app/Options/Options.php:48
+msgid "Settings"
+msgstr "सेटिङहरू"
+
+#: app/Admin/Admin.php:68
+msgid "Examples:"
+msgstr "उदाहरणहरू:"
+
+#: app/Admin/Admin.php:77
+msgid "Format Codes"
+msgstr "ढाँचा कोडहरू"
+
+#: app/Admin/Admin.php:81
+msgid "Symbol"
+msgstr "प्रतीक"
+
+#: app/Admin/Admin.php:82
+msgid "Description"
+msgstr "विवरण"
+
+#: app/Admin/Admin.php:83
+msgid "Example"
+msgstr "उदाहरण"
+
+#: app/Admin/Admin.php:87
+msgid "4-digit year"
+msgstr "४-अङ्कको वर्ष"
+
+#: app/Admin/Admin.php:92
+msgid "2-digit year"
+msgstr "२-अङ्कको वर्ष"
+
+#: app/Admin/Admin.php:97
+msgid "Day of month"
+msgstr "महिनाको दिन"
+
+#: app/Admin/Admin.php:102
+msgid "Day of month (padded)"
+msgstr "महिनाको दिन (भरिएको)"
+
+#: app/Admin/Admin.php:107
+msgid "Month name"
+msgstr "महिनाको नाम"
+
+#: app/Admin/Admin.php:112
+msgid "Month number"
+msgstr "महिनाको नम्बर"
+
+#: app/Admin/Admin.php:117
+msgid "Month number (padded)"
+msgstr "महिनाको नम्बर (भरिएको)"
+
+#: app/Admin/Admin.php:122
+msgid "Weekday (full)"
+msgstr "हप्ताको दिन (पूर्ण)"
+
+#: app/Admin/Admin.php:127
+msgid "Weekday (short)"
+msgstr "हप्ताको दिन (छोटो)"
+
+#: app/Options/Options.php:53
+msgid "Display Language"
+msgstr "प्रदर्शन भाषा"
+
+#: app/Options/Options.php:57
+msgid "Nepali"
+msgstr "नेपाली"
+
+#: app/Options/Options.php:58
+msgid "English"
+msgstr "अंग्रेजी"
+
+#: app/Options/Options.php:64
+msgid "Date Format"
+msgstr "मिति ढाँचा"

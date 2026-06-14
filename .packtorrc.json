@@ -1,0 +1,9 @@
+{
+  "files": [
+    "app/**/*",
+    "languages/**/*",
+    "*.php",
+    "composer.json",
+    "readme.txt"
+  ]
+}

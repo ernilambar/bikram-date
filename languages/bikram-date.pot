@@ -16,8 +16,6 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: bikram-date.php:3
-#: app/Options/Options.php:39
-#: app/Options/Options.php:40
 msgid "Bikram Date"
 msgstr ""
 
@@ -28,7 +26,7 @@ msgstr ""
 
 #. Description of the plugin
 #: bikram-date.php:5
-msgid "Display post dates in Nepali."
+msgid "Displays post dates in Nepali."
 msgstr ""
 
 #. Author of the plugin
@@ -100,6 +98,16 @@ msgstr ""
 
 #: app/Admin/Admin.php:127
 msgid "Weekday (short)"
+msgstr ""
+
+#: app/Options/Options.php:39
+msgctxt "page title"
+msgid "Bikram Date"
+msgstr ""
+
+#: app/Options/Options.php:40
+msgctxt "menu title"
+msgid "Bikram Date"
 msgstr ""
 
 #: app/Options/Options.php:53

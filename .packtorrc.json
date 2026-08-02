@@ -4,6 +4,7 @@
     "languages/**/*",
     "*.php",
     "composer.json",
-    "readme.txt"
+    "readme.txt",
+    "!**/*.bak"
   ]
 }

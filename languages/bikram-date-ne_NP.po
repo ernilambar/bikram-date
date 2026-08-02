@@ -8,15 +8,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2026-06-10T16:58:27+00:00\n"
-"PO-Revision-Date: 2026-06-14T07:12:48+00:00\n"
+"PO-Revision-Date: 2026-08-02T11:21:30+00:00\n"
 "Language: ne_NP\n"
 "X-Generator: WP-CLI 2.13.0-alpha\n"
 "X-Domain: bikram-date\n"
 
 #. Plugin Name of the plugin
 #: bikram-date.php:3
-#: app/Options/Options.php:39
-#: app/Options/Options.php:40
 msgid "Bikram Date"
 msgstr "Bikram Date"
 
@@ -27,7 +25,7 @@ msgstr "https://github.com/ernilambar/bikram-date/"
 
 #. Description of the plugin
 #: bikram-date.php:5
-msgid "Display post dates in Nepali."
+msgid "Displays post dates in Nepali."
 msgstr "नेपालीमा पोस्टको मिति देखाउँछ।"
 
 #. Author of the plugin
@@ -100,6 +98,16 @@ msgstr "हप्ताको दिन (पूर्ण)"
 #: app/Admin/Admin.php:127
 msgid "Weekday (short)"
 msgstr "हप्ताको दिन (छोटो)"
+
+#: app/Options/Options.php:39
+msgctxt "page title"
+msgid "Bikram Date"
+msgstr "विक्रम मिति"
+
+#: app/Options/Options.php:40
+msgctxt "menu title"
+msgid "Bikram Date"
+msgstr "विक्रम मिति"
 
 #: app/Options/Options.php:53
 msgid "Display Language"

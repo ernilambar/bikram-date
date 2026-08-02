@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Bikram Date
  * Plugin URI: https://github.com/ernilambar/bikram-date/
- * Description: Display post dates in Nepali.
+ * Description: Displays post dates in Nepali.
  * Version: 1.0.0
  * Requires at least: 6.9
  * Requires PHP: 8.0

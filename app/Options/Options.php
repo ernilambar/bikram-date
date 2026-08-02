@@ -36,8 +36,8 @@ class Options {
 			array(
 				'option_key' => 'bikmt_plugin_options',
 				'page'       => array(
-					'title'       => esc_html__( 'Bikram Date', 'bikram-date' ),
-					'menu_title'  => esc_html__( 'Bikram Date', 'bikram-date' ),
+					'title'       => esc_html_x( 'Bikram Date', 'page title', 'bikram-date' ),
+					'menu_title'  => esc_html_x( 'Bikram Date', 'menu title', 'bikram-date' ),
 					'menu_slug'   => 'bikram-date',
 					'capability'  => 'manage_options',
 					'parent_slug' => 'options-general.php',

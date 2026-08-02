@@ -1,7 +1,9 @@
 {
   "files": [
     "app/**/*",
+    "build/**/*",
     "languages/**/*",
+    "vendor/**/*",
     "*.php",
     "composer.json",
     "readme.txt",

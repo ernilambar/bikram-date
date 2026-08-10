@@ -19,6 +19,7 @@
 namespace Nilambar\BikramDate;
 
 use Nilambar\BikramDate\Core\Bootstrap;
+use Nilambar\Gitvise\Updater;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
@@ -36,6 +37,10 @@ define( 'BIKRAM_DATE_URL', rtrim( plugin_dir_url( __FILE__ ), '/' ) );
 if ( file_exists( BIKRAM_DATE_DIR . '/vendor/autoload.php' ) ) {
 	require_once BIKRAM_DATE_DIR . '/vendor/autoload.php';
 	require_once BIKRAM_DATE_DIR . '/vendor/ernilambar/optiz/init.php';
+	require_once BIKRAM_DATE_DIR . '/vendor/ernilambar/gitvise/init.php';
 }
 
 Bootstrap::run();
+
+$updater = new Updater( 'ernilambar/bikram-date', __FILE__ );
+$updater->init();

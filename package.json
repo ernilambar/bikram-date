@@ -32,7 +32,7 @@
     "easy-replace-in-files": "^2.0.0",
     "packtor": "^2.0.0",
     "postcss": "^8.5.25",
-    "postcss-nested": "^8.0.0",
+    "postcss-nested": "^8.0.1",
     "postcss-preset-env": "^11.3.2",
     "prettier": "npm:wp-prettier@^3.0.3",
     "rimraf": "^6.1.3",

@@ -3,7 +3,7 @@
  * Plugin Name: Bikram Date
  * Plugin URI: https://github.com/ernilambar/bikram-date/
  * Description: Displays post dates in Nepali.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.9
  * Requires PHP: 8.0
  * Author: Nilambar Sharma
@@ -26,7 +26,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'BIKRAM_DATE_VERSION', '1.0.0' );
+define( 'BIKRAM_DATE_VERSION', '1.0.1' );
 define( 'BIKRAM_DATE_SLUG', 'bikram-date' );
 define( 'BIKRAM_DATE_BASENAME', basename( __DIR__ ) );
 define( 'BIKRAM_DATE_BASE_FILENAME', plugin_basename( __FILE__ ) );

@@ -3,8 +3,8 @@
 Contributors: nilambar
 Tags: nepali, date
 Requires at least: 6.9
-Tested up to: 7.0
-Stable tag: 1.0.0
+Tested up to: 7.1
+Stable tag: 1.0.1
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
@@ -31,6 +31,9 @@ Nice, create an issue on the [Plugin Repo](https://github.com/ernilambar/bikram-
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.0 - 2026-08-10 =
+- Added: implement updater
+
+= 1.0.0 - 2026-08-02 =
 
 * Initial release.

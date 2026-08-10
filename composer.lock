@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "ernilambar/gitvise",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ernilambar/gitvise.git",
-                "reference": "ba05fa752fbcfceacff5baf10c81694edc67a182"
+                "reference": "378ad9d96a4bb1624727bfac1ae8325a9c1cf85c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ernilambar/gitvise/zipball/ba05fa752fbcfceacff5baf10c81694edc67a182",
-                "reference": "ba05fa752fbcfceacff5baf10c81694edc67a182",
+                "url": "https://api.github.com/repos/ernilambar/gitvise/zipball/378ad9d96a4bb1624727bfac1ae8325a9c1cf85c",
+                "reference": "378ad9d96a4bb1624727bfac1ae8325a9c1cf85c",
                 "shasum": ""
             },
             "require": {
@@ -43,9 +43,9 @@
             "description": "Update WordPress plugins from GitHub releases.",
             "support": {
                 "issues": "https://github.com/ernilambar/gitvise/issues",
-                "source": "https://github.com/ernilambar/gitvise/tree/1.0.5"
+                "source": "https://github.com/ernilambar/gitvise/tree/1.0.6"
             },
-            "time": "2026-08-07T05:40:07+00:00"
+            "time": "2026-08-10T05:06:32+00:00"
         },
         {
             "name": "ernilambar/nepali-date",

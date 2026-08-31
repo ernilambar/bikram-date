@@ -27,7 +27,6 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 define( 'BIKRAM_DATE_VERSION', '1.0.1' );
-define( 'BIKRAM_DATE_SLUG', 'bikram-date' );
 define( 'BIKRAM_DATE_BASENAME', basename( __DIR__ ) );
 define( 'BIKRAM_DATE_BASE_FILENAME', plugin_basename( __FILE__ ) );
 define( 'BIKRAM_DATE_DIR', rtrim( plugin_dir_path( __FILE__ ), '/' ) );

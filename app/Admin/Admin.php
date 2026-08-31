@@ -8,6 +8,7 @@
 namespace Nilambar\BikramDate\Admin;
 
 use Nilambar\BikramDate\Common\Helper;
+use Nilambar\Optiz\Manager;
 
 /**
  * Admin class.
@@ -36,12 +37,7 @@ class Admin {
 	 * @return array Modified action links.
 	 */
 	public function customize_plugin_action_links( $actions ) {
-		$url = add_query_arg(
-			array(
-				'page' => BIKRAM_DATE_SLUG,
-			),
-			admin_url( 'options-general.php' )
-		);
+		$url = Manager::instance( 'bikmt_options' )->get_page_url( 'general' );
 
 		$actions = array_merge(
 			array(

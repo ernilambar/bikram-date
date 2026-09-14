@@ -15,8 +15,8 @@ composer install    # install PHP deps (date libs, coding standards)
 
 ```bash
 pnpm run build            # compile src/ → build/ via Vite
-pnpm run format           # Prettier format CSS/JS/JSON
-pnpm version <semver>     # bump version (uses easy-replace.json)
+pnpm run format           # Prettier format (wp-prettier)
+pnpm run version          # sync version files (bump package.json first)
 pnpm run deploy           # full build + package to deploy/
 composer run lint         # parallel-lint + phpcs
 composer run format       # phpcbf auto-fix
@@ -33,6 +33,7 @@ composer run mo           # compile .mo files
 - **I18n:** All strings use `__()` / `_e()` with text domain `bikram-date`. POT lives in `languages/`.
 - **Imports:** Use `use` statements for all class references (no FQN in code). Slevomat `ReferenceUsedNamesOnly` + `AlphabeticallySortedUses` are enforced.
 - **Options access:** Read settings via `Nilambar\BikramDate\Core\Option::get( 'key' )`, not `get_option()` directly.
+- **Formatting:** Prettier uses the unmodified `@wordpress/prettier-config`, wired via the `prettier` key in `package.json`. Don't add a custom Prettier config file.
 
 ## Quality Gate
 

@@ -1,12 +1,12 @@
 {
-  "files": [
-    "app/**/*",
-    "build/**/*",
-    "languages/**/*",
-    "vendor/**/*",
-    "*.php",
-    "composer.json",
-    "readme.txt",
-    "!**/*.bak"
-  ]
+	"files": [
+		"app/**/*",
+		"build/**/*",
+		"languages/**/*",
+		"vendor/**/*",
+		"*.php",
+		"composer.json",
+		"readme.txt",
+		"!**/*.bak"
+	]
 }

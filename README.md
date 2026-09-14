@@ -15,10 +15,10 @@ Hooks into `get_the_date` and `get_the_time` filters and converts Gregorian date
 
 **Admin → Settings → Bikram Date**
 
-| Option | Values | Default |
-|---|---|---|
-| Language | Nepali / English | — |
-| Date Format | format string | `d F Y` |
+| Option      | Values           | Default |
+| ----------- | ---------------- | ------- |
+| Language    | Nepali / English | —       |
+| Date Format | format string    | `d F Y` |
 
 ## Contributing
 
